@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>intro-css</title>
+    <!--  1st Method :  to link the html file to the css file (the best practice !!!!!) -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- 2nd: using internal method link :  html to css -->
+    <style>
+      a {
+        color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- head of the web page  -->
+    <header>
+      <!-- 3rd method is inline css -->
+      <img
+        style="width: 70px"
+        src="https://img.freepik.com/psd-gratuit/maquette-logo-mur-gris_35913-2122.jpg?size=626&ext=jpg"
+        alt="logo"
+      />
+      <nav>
+        <ul>
+          <li>
+            <a href="#para">Home</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+          <li>
+            <a href="#">Services</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- main page  -->
+    <main>
+      <section>
+        <div class="intro">
+          <p id="para">
+            Lorem <span>ipsum</span> dolor sit amet consectetur adipisicing
+            elit. Recusandae explicabo maxime eos adipisci repellat
+            reprehenderit labore omnis, culpa officiis qui laudantium incidunt
+            rerum iusto distinctio est laborum exercitationem praesentium quos.
+          </p>
+          <img
+            src="https://img.freepik.com/psd-gratuit/maquette-logo-mur-gris_35913-2122.jpg?size=626&ext=jpg"
+            alt=""
+          />
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

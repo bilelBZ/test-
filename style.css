@@ -1,0 +1,23 @@
+/* nav is the parent of ul tag and ul is the parent of the li tag : nav>ul>li */
+nav ul li {
+  display: inline;
+  margin: 20px;
+}
+/* we use ".intro " specified to the element which have the class name of intro */
+.intro {
+  background-color: brown;
+}
+
+a {
+  text-decoration: none;
+}
+/* we use "#para " specified to the element which have the id name of para */
+
+#para {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+span {
+  color: yellow;
+}
